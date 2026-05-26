@@ -6059,7 +6059,7 @@
                     {
                         "name": "recipient",
                         "type": "string",
-                        "description": "The name of the recipient, channel name starts with '#', e.g., '#general', or user name starts with '@', e.g., '@john'.",
+                        "description": "The name of the recipient, channel name starts with '#', e.g., '#general', or user name starts with '@', e.g., '@anonymous'.",
                         "required": true
                     },
                     {
