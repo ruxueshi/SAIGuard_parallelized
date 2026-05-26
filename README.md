@@ -1,0 +1,6 @@
+<div align="center">
+  <h2>SAIGuard: Communication-State Simulation for Proactive Defense of LLM Multi-Agent Systems</h2>
+</div>
+
+## About our Work
+LLM-based multi-agent systems (MAS) enable complex task solving through inter-agent collaboration, but their communication-driven nature also allows security risks to propagate across agents and cause system-wide failures. Existing MAS defense methods mainly follow a reactive paradigm, detecting and isolating harmful agents only after malicious behaviors appear, which may lead to irreversible damage and degraded collaborative utility. To address this, we propose SAIGuard, a Simulation-aware Interception Guard for MAS security. SAIGuard models the MAS as an interaction graph, simulates the potential impact of incoming messages on local and global system states, and detects risky messages through reconstruction deviations from benign communication patterns. Instead of isolating agents, SAIGuard block risky or regenerates benign messages before they propagate into MAS, preserving collaboration while mitigating threats. Experiments across diverse topologies and attack scenarios show that SAIGuard reduces attack success rates while maintaining MAS utility, outperforming isolation-based safeguards.
