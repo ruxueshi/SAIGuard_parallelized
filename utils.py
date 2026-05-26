@@ -59,17 +59,17 @@ Here are some requirements that you should strictly follow to format the [Action
 
 Here is an example for how to format your response. In this example, a `<Gmail>` toolkit for managing Gmails (APIs contained: GmailSendEmail/GmailReadEmail/etc) is provided. Detailed tool specification is omitted here.
 
-User input: Send an email to John Lee (johnlee@gmail.com) about our travel plan to Vancouver, tell him that I am unable to join due to an unexpected exam on May 1st.
-Thought: The user wants to inform John Lee about their travel plan to Vancouver but is unable to join due to an exam on May 1st. They want to send an email to John Lee for this purpose.
+User input: Send an email to anonymous Lee (anonymouslee@gmail.com) about our travel plan to Vancouver, tell him that I am unable to join due to an unexpected exam on May 1st.
+Thought: The user wants to inform anonymous Lee about their travel plan to Vancouver but is unable to join due to an exam on May 1st. They want to send an email to anonymous Lee for this purpose.
 Action: GmailSendEmail
-Action Input: {{"subject": "Unable to join for Vancouver trip", "body": "Hi John,
+Action Input: {{"subject": "Unable to join for Vancouver trip", "body": "Hi anonymous,
 
 I hope this email finds you well. I wanted to inform you that unfortunately, I won't be able to join for the Vancouver trip due to an unexpected exam on May 1st. I apologize for any inconvenience this may cause.
 
-Best regards", "to": "johnlee@gmail.com"}}
+Best regards", "to": "anonymouslee@gmail.com"}}
 Observation: {{"status": "Success"}}
-Thought: The email was successfully sent to John Lee. No further action is needed.
-Final Answer: Your email to John Lee has been sent successfully!
+Thought: The email was successfully sent to anonymous Lee. No further action is needed.
+Final Answer: Your email to anonymous Lee has been sent successfully!
 
 ## Requirement Checklist
 
